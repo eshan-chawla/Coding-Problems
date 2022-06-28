@@ -49,6 +49,9 @@ class Solution:
             
             left+=1
             
+            # To Check that the System Works and we do not iterate again in the wrong direction once completed
+            # for irregular arrays (i.e. the shape of a rectange with odd sides) our algoritm will move to the opposite side once which will give the wrong output
+            
             if(length == len(ans)):
                 break
 
